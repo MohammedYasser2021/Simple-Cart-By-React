@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './App.css'
+import AddProduct from './components/AddProduct'
+import Home from './components/Home'
+import Favourites from './components/Favourites'
+import Navbar from './components/Navbar'
+import ContextProvider from './context'
+import AddedProducts from './components/addedProducts'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index element={<Home />} />
+          <Route path="favourites" element={<Favourites />} />
+          <Route path="addedproducts" element={<AddedProducts />} />
+          <Route path="addproduct" element={<AddProduct />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+function AppStore() {
+  return (
+    <ContextProvider>
+      <App />
+    </ContextProvider>
+  )
+}
+
+export default AppStore

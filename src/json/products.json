@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Product One",
+        "image": "./imgs/work1.jpg",
+        "price": "100$",
+        "desc": "Lorem Ipsum This Is Description About Product One"
+    },
+    {
+        "id": 2,
+        "name": "Product Two",
+        "image": "./imgs/work2.jpg",
+        "price": "200$",
+        "desc": "Lorem Ipsum This Is Description About Product Two"
+    },
+    {
+        "id": 3,
+        "name": "Product Three",
+        "image": "./imgs/work3.png",
+        "price": "300$",
+        "desc": "Lorem Ipsum This Is Description About Product Three"
+    },
+    {
+        "id": 4,
+        "name": "Product Four",
+        "image": "./imgs/work4.jpeg",
+        "price": "400$",
+        "desc": "Lorem Ipsum This Is Description About Product Four"
+    },
+    {
+        "id": 5,
+        "name": "Product Five",
+        "image": "./imgs/work5.jpg",
+        "price": "250$",
+        "desc": "Lorem Ipsum This Is Description About Product Five"
+    },
+    {
+        "id": 6,
+        "name": "Product Six",
+        "image": "./imgs/work6.jpg",
+        "price": "320$",
+        "desc": "Lorem Ipsum This Is Description About Product Six"
+    },
+    {
+        "id": 7,
+        "name": "Product Seven",
+        "image": "./imgs/work7.jpg",
+        "price": "125$",
+        "desc": "Lorem Ipsum This Is Description About Product Seven"
+    },
+    {
+        "id": 8,
+        "name": "Product Eight",
+        "image": "./imgs/work8.jpg",
+        "price": "115$",
+        "desc": "Lorem Ipsum This Is Description About Product Eight"
+    },
+    {
+        "id": 9,
+        "name": "Product Nine",
+        "image": "./imgs/work9.png",
+        "price": "900$",
+        "desc": "Lorem Ipsum This Is Description About Product Nine"
+    },
+    {
+        "id": 10,
+        "name": "Product Ten",
+        "image": "./imgs/work10.jpg",
+        "price": "750$",
+        "desc": "Lorem Ipsum This Is Description About Product Ten"
+    }
+]
